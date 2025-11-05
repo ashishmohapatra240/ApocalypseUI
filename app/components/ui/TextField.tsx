@@ -18,7 +18,7 @@ export default function TextField({
         placeholder={placeholder}
         value={value}
         onChange={onChange}
-        className="w-full bg-black/8 px-3 py-2 border border-white/12 rounded-l-[6px] focus:outline-none focus:ring-0 focus:border-white/24 font-mono placeholder:text-white/80 md:text-[14px] text-[12px] text-white"
+        className="w-full bg-black/8 px-3 py-2 border border-white/12 rounded-l-[8px] focus:outline-none focus:ring-0 focus:border-white/24 font-mono placeholder:text-white/80 md:text-[14px] text-[12px] text-white"
       />
     </div>
   );
