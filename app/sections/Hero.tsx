@@ -30,8 +30,8 @@ export default function Hero() {
   };
 
   return (
-    <section className="flex flex-col items-center justify-center h-screen relative overflow-hidden">
-      <div className="absolute top-0 left-0 w-full h-full bg-black">
+    <section className="flex flex-col items-center justify-center h-screen relative overflow-hidden bg-black">
+      <div className="absolute top-0 left-0 w-full h-full">
         <Image
           src="/images/pop.png"
           alt="Background"
