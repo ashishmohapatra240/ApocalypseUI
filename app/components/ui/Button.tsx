@@ -9,9 +9,9 @@ const buttonVariants = cva(
   {
     variants: {
       variant: {
-        default: "bg-white text-black rounded-r-[6px]",
-        secondary: "bg-white/8 text-white border border-white/12 rounded-[6px]",
-        outline: "bg-transparent text-white border border-white/12 rounded-[6px]",
+        default: "bg-white text-black rounded-r-[8px]",
+        secondary: "bg-white/8 text-white border border-white/12 rounded-[8px]",
+        outline: "bg-transparent text-white border border-white/12 rounded-[8px]",
       },
     },
     defaultVariants: {
