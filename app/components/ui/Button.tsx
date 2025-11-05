@@ -34,7 +34,7 @@ export default function Button({
   return (
     <button
       onClick={handleClick}
-      className={cn(buttonVariants({ variant }), "flex items-center justify-center gap-2 relative")}
+      className={cn(buttonVariants({ variant }), "flex items-center justify-center gap-2 relative min-w-fit")}
       disabled={isLoading}
     >
       <span className={cn(isLoading && "invisible")}>{text}</span>

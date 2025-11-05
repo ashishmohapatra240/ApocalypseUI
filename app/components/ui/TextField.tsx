@@ -12,7 +12,7 @@ export default function TextField({
   type?: string;
 }) {
   return (
-    <div className="flex flex-col gap-2">
+    <div className="flex flex-col gap-2 flex-1">
       <input
         type={type}
         placeholder={placeholder}
