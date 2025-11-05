@@ -38,17 +38,17 @@ export default function Hero() {
           preload={true}
           width={2400}
           height={2400}
-          className="w-full md:h-full h-[500px] object-cover md:right-[40%] right-[30%] md:mt-[40px] absolute scale-160"
+          className="w-full md:h-full h-[550px] -top-12 object-cover md:right-[40%] right-[30%] md:mt-[40px] absolute scale-160"
         />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center justify-center">
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 flex flex-col items-center justify-center w-full px-4 md:px-0">
           <Chip text="Web 3 UI Design Kit" />
-          <h1 className="text-white md:text-4xl text-2xl font-bold uppercase max-w-[400px] text-center leading-[1.6] mt-5">
+          <h1 className="text-white md:text-[40px] text-[32px] font-bold uppercase max-w-[400px] text-center leading-[1.6] mt-5">
             We're launching soon
           </h1>
-          <div className="flex mt-10">
+          <div className="flex mt-10 w-full md:max-w-[400px]">
             <TextField
               label="Email"
-              placeholder="Enter Email"
+              placeholder="Enter your email"
               type="email"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
