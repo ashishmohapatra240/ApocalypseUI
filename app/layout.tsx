@@ -19,6 +19,24 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Apocalypse UI",
   description: "Next Gen Web3 UI Library",
+  openGraph: {
+    title: "Apocalypse UI",
+    description: "Next Gen Web3 UI Library",
+    images: [
+      {
+        url: "/images/og.png",
+        width: 1200,
+        height: 630,
+        alt: "Apocalypse UI",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Apocalypse UI",
+    description: "Next Gen Web3 UI Library",
+    images: ["/images/og.png"],
+  },
 };
 
 export default function RootLayout({
