@@ -60,7 +60,7 @@ export default function RootLayout({
               unstyled: true,
               classNames: {
                 toast:
-                  "bg-black/8 text-white border border-white/12 rounded-[6px] backdrop-blur-sm px-4 py-3 font-mono text-sm w-auto flex items-center gap-3 text-center md:mb-10 mb-5 mr-5",
+                  "bg-black/8 text-white border border-white/12 rounded-[6px] backdrop-blur-sm px-4 py-3 font-mono text-sm w-auto flex items-center gap-3 text-center md:mb-10 mb-8 mr-5",
 
                 title: "font-semibold uppercase",
                 description: "text-white/80 text-xs",
